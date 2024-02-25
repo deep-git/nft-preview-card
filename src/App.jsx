@@ -13,7 +13,7 @@ function App() {
             <img src="image-equilibrium.jpg" alt="Image equilibrium"/>
 
             <div className={`${hoverImage === true ? 'flex' : 'hidden'} absolute bg-cyan/[0.5] cursor-pointer select-none top-0 w-full h-full flex justify-center items-center`}>
-              <img src="icon-view.svg" alt="View upon hover" />
+              <img className="select-none" src="icon-view.svg" alt="View upon hover" />
             </div>
           </div>
           
