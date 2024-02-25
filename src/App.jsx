@@ -12,7 +12,7 @@ function App() {
           <div className="relative rounded-lg overflow-hidden" onMouseEnter={() => setHoverImage(true)} onMouseLeave={() => setHoverImage(false)}>
             <img src="image-equilibrium.jpg" alt="Image equilibrium"/>
 
-            <div className={`${hoverImage === true ? 'flex' : 'hidden'} absolute bg-cyan/[0.5] cursor-pointer top-0 w-full h-full flex justify-center items-center`}>
+            <div className={`${hoverImage === true ? 'flex' : 'hidden'} absolute bg-cyan/[0.5] cursor-pointer select-none top-0 w-full h-full flex justify-center items-center`}>
               <img src="icon-view.svg" alt="View upon hover" />
             </div>
           </div>
