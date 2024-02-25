@@ -5,5 +5,5 @@ This project is a Frontend Mentor challenge project that utilizes HTML and CSS t
 Link: https://deep-git.github.io/nft-preview-card/
 
 ## Technologies Utilized
-HTML
-Tailwind CSS
+- HTML
+- Tailwind CSS
